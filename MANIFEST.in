@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include waste_management *.css
+recursive-include waste_management *.csv
+recursive-include waste_management *.html
+recursive-include waste_management *.ico
+recursive-include waste_management *.js
+recursive-include waste_management *.json
+recursive-include waste_management *.md
+recursive-include waste_management *.png
+recursive-include waste_management *.py
+recursive-include waste_management *.svg
+recursive-include waste_management *.txt
+recursive-exclude waste_management *.pyc
